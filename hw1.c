@@ -43,7 +43,7 @@ int main(void){
     
     //pointer to output file is taken
     FILE *output;
-    output = fopen("output2.txt" , "w");
+    output = fopen("output.txt" , "w");
 
     //converting hex values to every data type and printing in the file
     Output(chunks_of_16hex , layer , output);
